@@ -9,6 +9,10 @@ body {
     background-color: #2a3031 ;
     -webkit-font-smoothing: antialiased ;
     -moz-osx-font-smoothing: grayscale;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 
 }
 .wrapper{
