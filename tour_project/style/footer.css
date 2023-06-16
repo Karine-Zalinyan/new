@@ -40,15 +40,11 @@
 
 .footer__logo {
    display: block;
-   position: absolute;
-   top: 0px;
-   left: 0px;
-        
+   
 }
 
 
 .footer__nav {
-    position: absolute;
     top: 23px;
     margin-left: 159px;
 }
@@ -63,7 +59,6 @@
 }
 
 .contacts{
-    position: absolute;
     right: 0;
     font-style: normal;
     text-align: right ;
