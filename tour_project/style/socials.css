@@ -12,8 +12,7 @@
     position: relative;
     background-size: contain;
     background: center center no-repeat;
-    left: 697px;
-    bottom: 25px;
+
 } 
 
 .socials__item--icon--telegram .socials__link::before {
