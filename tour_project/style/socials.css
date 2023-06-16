@@ -1,0 +1,138 @@
+
+.socials{
+    margin-right: 74px;
+}
+
+.socials__link{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    background-size: contain;
+    background: center center no-repeat;
+    left: 697px;
+    bottom: 25px;
+} 
+
+.socials__item--icon--telegram .socials__link::before {
+    content: url(../img/t.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--telegram .socials__link::after {
+    content: url(../img/t-h.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--telegram .socials__link:hover::before {
+    opacity: 0;
+}
+.socials__item--icon--telegram .socials__link:hover::after {
+    opacity: 1;
+}
+
+.socials__item--icon--vk .socials__link::before {
+    content: url(../img/vk.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--vk .socials__link::after {
+    content: url(../img/vk-h.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--vk .socials__link:hover::before {
+    opacity: 0;
+}
+.socials__item--icon--vk .socials__link:hover::after {
+    opacity: 1;
+}
+
+.socials__item--icon--fb .socials__link::before {
+    content: url(../img/fb.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--fb .socials__link::after {
+    content: url(../img/f-h.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--fb .socials__link:hover::before {
+    opacity: 0;
+}
+.socials__item--icon--fb .socials__link:hover::after {
+    opacity: 1;
+}
+ 
+.socials__item--icon--insta .socials__link::before {
+    content: url(../img/in.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--insta .socials__link::after {
+    content: url(../img/in-h.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+
+.socials__item--icon--insta .socials__link:hover::before {
+    opacity: 0;
+}
+.socials__item--icon--insta .socials__link:hover::after {
+    opacity: 1;
+}
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+

@@ -1,0 +1,21 @@
+.contacts{
+    font-style: normal;
+    text-align: right;
+    font-size: 26px;
+    margin-right: 70px;
+    margin-top: 14px;
+}
+.contacts__phone{
+    text-decoration: none;
+}
+.contact__dropdown-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 13px;
+    text-decoration: underline;
+    color: rgb(228, 24, 24);
+    right: 0;
+    margin-bottom: 15px;
+
+}

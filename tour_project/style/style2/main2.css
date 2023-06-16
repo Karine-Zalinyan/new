@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url(../../style/socials.css);
+@import url(../../style/footer.css);
+@import url(../style2/pager2.css);
+
+
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif ;
+    color: #363131;
+    font-size: 16px;
+    line-height: 1.42;
+    background-color: #ffffff ;
+    -webkit-font-smoothing: antialiased ;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.wrapper{
+    position: relative;
+    padding-bottom: 110px;
+    width: 1920px;
+}
+.conteiner{
+
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+a{
+    color: inherit;
+}
+
+.conteiner{
+    display: flex;  
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style-type: none;
+    
+}
+h1,h2,h3,h4,h5,h6{
+margin: 0;
+font-weight: normal;
+}
+p{
+    margin-top: 0;
+}
+* {
+    box-sizing: border-box;
+
+}
+.main-page-wrapper{
+background: url(../../img/h.jpeg) center top no-repeat ;
+Height:100%; 
+width: 100%;    
+}
+.section{
+    margin-bottom: 130px;
+}
+.section__title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 67px;
+    margin-left: 60px;
+    margin-right: 0;  
+}
+.menu{
+display: flex;   
+
+}
+
+
+.menu__item{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+
+
+}
+.menu__link:hover {
+color: rgb(228, 24, 24);
+}
+
+
+.services__header-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+ 
+.services__content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.services__content{
+ width: 226px;
+height: 37px;
+left: 390px;
+top: 1658px;
+
+background: url(../../img/partners/pobeda.png);   
+}
