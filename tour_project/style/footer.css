@@ -11,9 +11,8 @@
    min-height: 140px;
    position: relative;
    display: flex;
-   align-items:flex-start;
+   align-items: center;
    justify-content: space-between;
-   
    
 }
 
@@ -46,7 +45,8 @@
 
 .footer__nav {
     top: 23px;
-    margin-left: 159px;
+    margin-left: 80px;
+    
 }
 .nav__item{
     display: inline-block;
@@ -73,8 +73,8 @@
 .footer__call {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  
+  align-items: flex-end;
+  flex-direction: column;
 }
 
 .footer__call-text {

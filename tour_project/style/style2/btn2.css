@@ -1,0 +1,11 @@
+.btn{
+    display: inline-block;
+    background: red;
+    font-size: 14px;
+    border-radius: 28px;
+    padding: 19px 39px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}

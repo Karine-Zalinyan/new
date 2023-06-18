@@ -1,17 +1,23 @@
 .pager{
-    text-align: center;
-    display: inline-flex;
-}
-.pager__display, .pager__list{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
-}
-.pager__display{
-    margin-right: 26px;
-}
-.pager__item{
+    align-items: center;
+    padding: 43px;
+    margin-left: 55px;
+    }
     
-}
+    .pager__display{
+        margin-right: 30px;
+    }
+    .pager__list{
+        display: flex;
+        align-items: center;
+    }
+    .pager__item{
+        text-align: center;
+        color: black;
+    }
+    
 .pager__item-active .pager__link{
     background: #f60101;
     color: white;
