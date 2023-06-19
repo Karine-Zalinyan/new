@@ -22,7 +22,7 @@
     margin-bottom: 0px;
     display: flex;
     flex-direction: column;
-    background: #2a3031 url(../../img/back.jpeg) right 40% top 52% no-repeat;
+    background: #2a3031 url(../img/back.jpeg) right 40% top 52% no-repeat;
     padding-bottom: 25px;
     color: white;
 }
