@@ -1,80 +1,87 @@
 .footer-conteiner__content {
-   border-top: 1px solid #494747;
+    border-top: 1px solid #494747;
 }
-.footer-conteiner{
+
+.footer-conteiner {
     margin-top: auto;
 
 
 }
-   
-   .footer {
-   min-height: 140px;
-   position: relative;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   
+
+.footer {
+    min-height: 140px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
-.footer__col{
+.footer__col {
     display: flex;
     align-items: center;
 }
-.footer__col--align--right{
+
+.footer__col--align--right {
     justify-content: flex-end;
+    margin-right: -17px;
 }
 
 
 
-.footer__conteiner::before{
-    content:"" ;
+.footer__conteiner::before {
+    content: "";
     position: absolute;
     left: 0;
     right: 0;
     height: 4px;
     background-color: #dacece;
     opacity: 0.1;
-    
+
 }
 
 .footer__logo {
-   display: block;
-   
+    display: block;
+
 }
 
 
 .footer__nav {
     top: 23px;
     margin-left: 80px;
-    
+
 }
-.nav__item{
+
+.nav__item {
     display: inline-block;
     vertical-align: middle;
     margin-right: 50px;
 }
+
 .nav__link {
     font-size: 14px;
     text-decoration: none;
 }
 
-.contacts{
+.contacts {
     right: 0;
     font-style: normal;
-    text-align: right ;
-    
+    text-align: right;
+
 
 }
-.contacts__desc{
+
+.contacts__desc {
     color: #ffffff;
     font-size: 11px;
     text-align: right;
 }
+
 .footer__call {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .footer__call-text {
@@ -86,7 +93,7 @@
 
 .tell__link {
     position: relative;
-    font-size: 26px;  
+    font-size: 26px;
     text-decoration: none;
     right: 0;
 
