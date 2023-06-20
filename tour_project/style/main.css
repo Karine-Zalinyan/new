@@ -73,10 +73,6 @@
     text-decoration: none;
 }
 
-.conteiner {
-    margin-left: 19px;
-}
-
 .service__conteiner .conteiner {
     background: white;
     margin-right: 0px;
@@ -192,4 +188,22 @@
 .partners__link:hover {
     filter: grayscale(0);
 
+}
+.hello-page{
+    background: url(../img/hello.jpeg) center center no-repeat;
+    display: flex;
+   
+
+}
+
+.hello-logo{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hello__img{
+    width: 1920px;
+    height: 960px;
 }
