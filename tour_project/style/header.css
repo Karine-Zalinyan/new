@@ -45,4 +45,5 @@ header {
 
 .menu__link:hover {
     color: rgb(228, 24, 24);
+    transition: 0.5s;
 }
